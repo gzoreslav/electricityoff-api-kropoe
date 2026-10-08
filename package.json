@@ -1,0 +1,30 @@
+{
+  "name": "electricityoff-api-kropoe",
+  "description": "API for ElectricityOff — Kropyvnytskyi (KROPOE)",
+  "version": "1.0.0",
+  "main": "api/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzoreslav/electricityoff-api-kropoe.git"
+  },
+  "author": "Zoreslav Goral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzoreslav/electricityoff-api-kropoe/issues"
+  },
+  "homepage": "https://github.com/gzoreslav/electricityoff-api-kropoe#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.6"
+  }
+}
